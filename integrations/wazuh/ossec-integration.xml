@@ -1,0 +1,7 @@
+<!-- Add inside <ossec_config> on the Wazuh manager -->
+<integration>
+  <name>custom-grey-fountain</name>
+  <hook_url>http://10.0.2.15:8088/triage/wazuh</hook_url>
+  <level>7</level>
+  <alert_format>json</alert_format>
+</integration>
